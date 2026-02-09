@@ -34,7 +34,7 @@ jobs:
         run: |
           python train.py
           ls -la artifacts
-      
+    
       - name: Upload artifacts
         uses: actions/upload-artifacts@v4
         with: 
